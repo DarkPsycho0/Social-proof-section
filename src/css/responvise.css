@@ -1,0 +1,73 @@
+@media(max-width:1024px){
+    .header .description{
+        width: 400px;
+        margin-right: auto;
+    }
+    .header ul{
+        width: 500px;
+    }
+    .header ul li{
+        gap: 20px;
+        width: 400px;
+    }
+    .cards{
+        gap: 20px;
+    }
+    .card{
+        padding: 30px 25px;
+        width: 290px;
+    }
+}
+@media(max-width:768px){
+    html{
+        height: 1475px;
+    }
+    .container{
+        height: 100%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header .description{
+        text-align: center;
+    }
+    .header .description h1{
+        margin-top: 40px;
+    }
+    .header ul{
+        width: 400px;
+    }
+    .header ul li{
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px;
+    }
+    .first, .second, .third{
+        align-self: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 400px;
+    }
+}
+@media(max-width:475px){
+    body{
+        background-image: url(../images/bg-pattern-bottom-mobile.svg), url(../images/bg-pattern-top-mobile.svg);
+    }
+    .header .description, .header ul, .header ul li, .card{
+        width: 365px;
+    }
+}
+@media(max-width:375px){
+    .header .description, .header ul, .header ul li, .card{
+        width: 320px;
+    }
+    .header .description h1{
+        font-size: 50px;
+    }
+    .header .description p{
+        font-size: 17px;
+    }
+}
