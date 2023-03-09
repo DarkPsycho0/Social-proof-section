@@ -10,7 +10,21 @@ Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
-<h2 align="center">
-    🚧 🏗️ under construction🏗️ 🚧
-</h2>
-<img src="./src/images/Page_Under_Construction.png">
+#### Desktop Screenshot 🖥️
+
+<img src="./src/images/desktop-screenshot.png">
+
+#### Mobile Screenshot 📱
+
+<img src="./src/images/mobile-screenshot.png">
+
+### link 🔗
+
+- Live Site URL: https://lkiryu.github.io/Social-proof-section/
+
+### Built with 🛠️
+- HTML5
+- CSS
+---
+### Author 👨‍💻
+ Made by Matheus Antonio
